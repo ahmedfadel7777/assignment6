@@ -1,0 +1,6 @@
+<h1>Parent</h1>
+<app-child [userNameFromParent]="userName"></app-child>
+
+
+<app-child (child)="message=$event"></app-child>
+<h2>{{message}}</h2>
